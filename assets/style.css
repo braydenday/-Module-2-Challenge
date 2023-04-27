@@ -1,0 +1,193 @@
+/* This applies the box sizing selector to the entire CSS page so everything is straight */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*this is the background of the webpage*/
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+
+/*this is going to control the text for the A selector*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* this is going to control the header at the top of the page with my name and tabs for the page*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-style: italic
+}
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.header nav ul {
+    list-style-type: none;
+}
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*this controls the plant header image*/
+.welcome {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/assets/welcome.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*this is for the layout of the about section and the class float images under the aboutme section*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.about {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.about-me {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: -23px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.about-me img {
+    max-height: 200px;
+}
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/*this is going to control the whole "portfolio" class physically on the page*/
+
+.work h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.portfolio-section {
+    margin-top: -15px;
+    margin-bottom: 20px;
+    margin-right: -23px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*this is going to be the details inside the "portfolio" class*/
+.module-1, 
+.amazon, 
+.google,
+.facebook,
+.twitter {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.module-1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.amazon, 
+.google {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.facebook,
+.twitter {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.module-1 img {
+    display: center;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.amazon img, 
+.google img {
+    display: left;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.facebook img,
+.twitter img {
+    display: right;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/*im going to have to add CSS for the new "contact-me" class and section HERE*/
+.contact-me {
+    margin-top: -15px;
+    margin-bottom: 20px;
+    margin-right: -23px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.contact-me h2 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact-details {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.contact ul {
+    list-style-type: horizontal;
+}
+.contact ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*this is going to be the footer for the page*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
