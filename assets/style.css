@@ -25,11 +25,13 @@ a {
     background-color: #000000;
     color: #ffffff;
 }
+
 .header h1 {
-    display: inline-block; /*whats the difference between inline-block and flex??*/
+    display: inline-block;
     font-size: 48px;
     font-style: italic
 }
+
 .header nav {
     display: flex;
     flex-direction: row;
@@ -49,6 +51,7 @@ a {
 
 /*this controls the plant header image*/
 .welcome-header {
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,11 +63,13 @@ a {
     float: left;
     margin-right: 25px;
 }
+
 .about {
     width: 75%;
     display: flex;
     margin-left: 20px;
 }
+
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
@@ -73,9 +78,11 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 .about-me img {
     max-height: 200px;
 }
+
 .about-me h2 {
     margin-bottom: 20px;
     font-size: 40px;
@@ -88,6 +95,7 @@ a {
     text-align: center;
     font-size: 40px;
 }
+
 .portfolio {
     margin-top: -15px;
     margin-bottom: 20px;
@@ -98,8 +106,8 @@ a {
 }
 
 /*this is going to be the details inside the "portfolio" class*/
-.module-1, 
-.amazon, 
+.module-1,
+.amazon,
 .google,
 .facebook,
 .twitter {
@@ -112,17 +120,20 @@ a {
 }
 
 .box1 {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
 }
+
 .module-1 img {
     display: flex;
     margin: 10px auto;
     max-width: 700px;
 }
+
 .module-1 h3,
 .module-1 figcaption {
     display: flex;
@@ -136,7 +147,8 @@ a {
     display: flex;
     margin-bottom: 10px;
 }
-.amazon img, 
+
+.amazon img,
 .google img {
     margin: 10px auto;
     max-width: 200px;
@@ -156,8 +168,8 @@ a {
 }
 
 
-/*im going to have to add CSS for the new "contact-me" class and section HERE*/
-.contact-me { /* when am i supposed to be using flex instead of px cause I feel like im combining them and its not working*/
+/*this is going to control the contact me section*/
+.contact-me {
     margin-top: -15px;
     margin-bottom: 20px;
     padding: 50px;
