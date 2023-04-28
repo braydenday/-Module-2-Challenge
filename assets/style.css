@@ -18,7 +18,8 @@ a {
 
 /* this is going to control the header at the top of the page with my name and tabs for the page*/
 .header {
-    /*display: flex; .... I want this to flex my name too , not everything*/
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #000000;
@@ -65,11 +66,9 @@ a {
     margin-left: 20px;
 }
 .about-me {
-    margin-top: 0px;
     margin-bottom: 20px;
-    margin-right: -23px;
     padding: 50px;
-    height: 300px;
+    min-height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -105,6 +104,10 @@ a {
 .google,
 .facebook,
 .twitter {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    max-width: 300px;
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -121,12 +124,17 @@ a {
     margin: 10px auto;
     max-width: 700px;
 }
+.module-1 h3,
+.module-1 figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .box2 {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
     margin-bottom: 10px;
 }
 .amazon img, 
@@ -136,10 +144,9 @@ a {
 }
 
 .box3 {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: right;
     margin-bottom: 10px;
 }
 
