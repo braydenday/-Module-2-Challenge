@@ -19,9 +19,9 @@ N/A . This is a web application using an URL link. https://braydenday.github.io/
 
 A website created to showcase my personal portfolio including an about me section, my previous work/coding projects, as well as a contact me section for any inquiries!
 
-![first half of the page](Screenshot1.png?raw=true "First Half of the URL Page")
+![top half of the page](Screenshot1.png?raw=true "Top Half of the URL Page")
 
-![second half of the page](Screenshot2.png?raw=true "Second Half of the URL Page")
+![bottom half of the page](Screenshot2.png?raw=true "Bottom Half of the URL Page")
 
 ## Credits
 
