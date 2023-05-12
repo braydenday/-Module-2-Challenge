@@ -107,10 +107,10 @@ a {
 
 /*this is going to be the details inside the "portfolio" class*/
 .module-1,
-.amazon,
-.google,
-.facebook,
-.twitter {
+.module-2,
+.module-3,
+.module-4,
+.module-5 {
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -148,8 +148,8 @@ a {
     margin-bottom: 10px;
 }
 
-.amazon img,
-.google img {
+.module-2 img,
+.module-3 img {
     margin: 10px auto;
     max-width: 200px;
 }
@@ -161,8 +161,8 @@ a {
     margin-bottom: 10px;
 }
 
-.facebook img,
-.twitter img {
+.module-4 img,
+.module-5 img {
     margin: 10px auto;
     max-width: 200px;
 }
