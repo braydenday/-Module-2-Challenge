@@ -13,7 +13,7 @@ I wanted a website optimized for recruiters and future clientele to be able to c
 
 ## Installation
 
-N/A . This is a web application using an URL link. https://braydenday.github.io/BraydenDay-Module-2-Challenge/
+N/A . This is a web application using an URL link. https://braydenday.github.io/Braydens-Portfolio/
 
 ## Usage
 
